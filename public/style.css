@@ -18,6 +18,12 @@ a {
   cursor: pointer;
 }
 
+main {
+  padding: 32px 16px;
+  max-width: 512px;
+  margin: 0 auto;
+}
+
 #identity img {
   border: 5px #fff solid;
   box-shadow: 0px 0px 10px #fff;
@@ -29,12 +35,17 @@ a {
 #identity h1 {
   font-size: 2rem;
   color: #fff;
+  margin: 16px 0px;
 }
 
-h2.shade {
+.shade {
   text-shadow: 0px 3px rgb(2, 0, 50);
   font-weight: bold;
+}
+
+h2 {
   font-size: 1.4rem;
+  margin-bottom: 32px;  
 }
 
 h3 {
@@ -51,11 +62,13 @@ li {
   font-size: 1.125rem;
   display: inline;
   color:#cce7ff;
+  margin-right: 16px;
 }
 
 footer img {
   box-shadow: 0px 0px 7px #909090;
   border-radius: 50%;
+  margin-right: 16px;
 }
 
 footer a:hover img {
