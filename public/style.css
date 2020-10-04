@@ -4,49 +4,30 @@
 }
 
 body {
-  margin: 10% 15%;
-  width:80%;
-  /*background-color: rgba(57, 54, 64, 0.92) ;*/
-  color:#ebfaff;
+  color: #ebfaff;
   font-family: 'Montserrat', sans-serif;
-  position: relative;
-  background: rgb(2,0,36);
-  background: rgb(2,0,36);
   background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(110,108,108,1) 100%);
   background-image: url(Website-Design-Background-1.jpg);
   background-size:cover;
 }
 
-#identity {
-  float:left;
-  margin-right: 1em;
-}
-
-#description {
-  position: relative;    
-}
-
 .shade {
-  text-shadow:  0px 3px rgb(2,0,50);
+  text-shadow: 0px 3px rgb(2, 0, 50);
 }
 
 #identity img {
-   border: 3px #fff solid;
-     /*box-shadow: 0px 0px 5px #fff;*/
-    border-radius: 20%;
-    color: transparent;
+  border: 3px #fff solid;
+  box-shadow: 0px 0px 5px #fff;
+  border-radius: 50%;
 }
 
 footer {
-  clear:both;
-  align-items: center;
   text-align: center;
-  margin-top: 5em;  
 }
 
 footer img {
   box-shadow: 0px 0px 7px #909090;
-  border-radius:50vw;
+  border-radius: 50%;
 }
 
 footer img a:hover{
@@ -65,9 +46,9 @@ ul {
 }
 
 h1 {
-  margin-top:0.75em;
-  margin-bottom:1em;
-  color:#ffffff;
+  margin-top: 0.75em;
+  margin-bottom: 1em;
+  color: #ffffff;
 }
 
 h3 {
@@ -84,26 +65,4 @@ li {
   margin-right: 1em;
   clear: right;
   color:#cce7ff;
-}
-
-@media only screen and (max-width: 900px) {
-  #identity {
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    padding: 0 20%;
-  }
-    
-  #description {
-    float:left;
-    padding:0em;
-    margin-top:-7%;
-    position: relative;
-    text-align: center;
-  }
-  
-  #identity img {
-    border-radius:50vw;
-  }  
 }
