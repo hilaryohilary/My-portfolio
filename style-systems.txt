@@ -1,0 +1,30 @@
+Spacing and Sizing
+4px
+8px
+12px 
+16px - 1rem
+24px
+32px
+48px
+64px
+96px
+128px
+192px
+256px
+384px
+512px
+640px
+768px
+
+Font Sizes
+12px - 0.75rem
+14px - 0.875rem
+16px - 1rem
+18px - 1.125rem
+20px - 1.25rem
+24px - 1.5rem
+30px - 1.875rem
+36px - 2.25rem
+48px - 3rem
+60px - 3.875rem
+72px - 4.5rem
